@@ -6,7 +6,7 @@ const Nav = () => {
     <div>
       <nav className="menu">
         <h1>
-          <img alt="Sunnyside logo" src={logo} />
+          <img alt="Sunnyside logo" src={logo} className="logo" />
         </h1>
         <div>
           <ul className="links">
@@ -14,7 +14,9 @@ const Nav = () => {
             <li>Services</li>
             <li>Projects</li>
             <li className="button">
-              <a href="#">CONTACT</a>
+              <a href="#" className="anchor">
+                CONTACT
+              </a>
             </li>
           </ul>
         </div>

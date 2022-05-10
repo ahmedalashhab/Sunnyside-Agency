@@ -10,8 +10,10 @@ import stylesheet from "../css/stylesheet.css";
 const App = () => {
   return (
     <div>
-      <Nav />
       <Hero />
+      <ImageContainerRight />
+      <ImageContainerLeft />
+      <ImageContainerBoth />
     </div>
   );
 };

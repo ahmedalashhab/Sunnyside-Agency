@@ -1,0 +1,168 @@
+.imageGrid {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 144rem;
+  background-color: #fffcfc;
+;
+}
+
+.contentBox{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 45rem;
+  text-align: left;
+
+}
+
+.box h3 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: hsl(212, 27%, 19%);
+  text-align: left;
+}
+
+.box p {
+  font-family: Barlow, sans-serif;
+  font-size: 18px;
+  color: hsl(232, 10%, 55%);
+}
+
+
+
+.learnMoreYellow {
+  text-transform: uppercase;
+  font-family: Fraunces, serif;
+  font-weight: 900;
+  font-size: 16px;
+  color: hsl(212, 27%, 19%);
+  width: 12rem;
+  margin: 2rem 0 0 1rem;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  height: 2.2rem;
+
+}
+
+.learnMoreYellow:after {
+  content: '';
+  width:100%;
+  height: 1rem;
+  left: 0;
+  bottom: 0;
+  border-radius: 25px;
+  background: hsla(51, 100%, 49%, 0.37);
+  position: absolute;
+  z-index: -1;
+  transition: 0.2s ease;
+
+}
+
+
+
+.yellow:hover:after {
+  background: hsla(51, 100%, 49%);
+
+}
+
+.learnMoreRed {
+  text-transform: uppercase;
+  font-family: Fraunces, serif;
+  font-weight: 900;
+  font-size: 16px;
+  color: hsl(212, 27%, 19%);
+  width: 12rem;
+  margin: 2rem 0 0 1rem;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  height: 2.2rem;
+
+}
+
+.learnMoreRed::after {
+  content: '';
+  width:100%;
+  height: 1rem;
+  left: 0;
+  bottom: 0;
+  border-radius: 25px;
+  background: hsla(7, 99%, 70%, 0.25);
+  position: absolute;
+  z-index: -1;
+  transition: 0.2s ease;
+}
+
+
+
+.red:hover:after {
+  background: hsl(7, 99%, 70%);
+}
+
+.imageBoxGraphic{
+  background: url("../images/desktop/image-graphic-design.jpg") no-repeat;
+  height: 60rem;
+  background-size: cover;
+  margin: auto;
+}
+
+.textBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60rem;
+  gap: 3rem
+
+
+}
+
+.graphicTitle {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 28px;
+  color: hsl(167, 40%, 24%);
+  margin-top: 32rem;
+}
+
+.graphicText {
+  font-family: Barlow, sans-serif;
+  font-size: 16px;
+  color: hsl(167, 40%, 24%);
+  width: 34rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.imageBoxPhoto {
+  background: url("../images/desktop/image-photography.jpg") no-repeat;
+}
+
+.photoTitle {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 28px;
+  color: hsl(198, 62%, 26%);
+  margin-top: 32rem;
+}
+
+.photoText {
+  font-family: Barlow, sans-serif;
+  font-size: 16px;
+  color: hsl(198, 62%, 26%);
+  width: 34rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
