@@ -116,14 +116,14 @@ li {
 }
 
 .box p {
-  font-family: Barlow, sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 18px;
   color: hsl(232deg, 10%, 55%);
 }
 
 .learnMoreYellow {
   text-transform: uppercase;
-  font-family: Fraunces, serif;
+  font-family: "Fraunces", serif;
   font-weight: 900;
   font-size: 16px;
   color: hsl(212deg, 27%, 19%);
@@ -154,7 +154,7 @@ li {
 
 .learnMoreRed {
   text-transform: uppercase;
-  font-family: Fraunces, serif;
+  font-family: "Fraunces", serif;
   font-weight: 900;
   font-size: 16px;
   color: hsl(212deg, 27%, 19%);
@@ -208,7 +208,7 @@ li {
 }
 
 .graphicText {
-  font-family: Barlow, sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 16px;
   color: hsl(167deg, 40%, 24%);
   width: 34rem;
@@ -229,12 +229,96 @@ li {
 }
 
 .photoText {
-  font-family: Barlow, sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 16px;
   color: hsl(198deg, 62%, 26%);
   width: 34rem;
   line-height: 2.5rem;
   text-align: center;
+}
+
+.testimonialTitleContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 18rem;
+}
+
+.testimonialTitle {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: hsl(210deg, 4%, 67%);
+}
+
+.totalTestimonialContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonialPeopleContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 144rem;
+  padding: 0 15rem;
+  margin-bottom: 16rem;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  padding: 0 3rem;
+  width: auto;
+}
+
+.picContainer img {
+  border-radius: 50%;
+  height: 7rem;
+}
+
+.quote {
+  font-size: 16px;
+  font-family: Barlow, sans-serif;
+  color: hsl(232deg, 10%, 55%);
+  text-align: center;
+  line-height: 3rem;
+}
+
+.name {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 7rem;
+  color: hsl(212deg, 27%, 19%);
+  margin-bottom: 1rem;
+}
+
+.job {
+  font-family: Barlow, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: hsl(210deg, 4%, 67%);
+}
+
+.galleryContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  width: 144rem;
+}
+
+.gallery img {
+  width: 36rem;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

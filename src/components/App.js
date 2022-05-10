@@ -1,9 +1,9 @@
 import React from "react";
-import Nav from "./Nav";
 import Hero from "./Hero";
 import ImageContainerRight from "./ImageContainerRight";
 import ImageContainerLeft from "./ImageContainerLeft";
 import ImageContainerBoth from "./ImageContainerBoth";
+import Testimonials from "./Testimonials";
 import ImageFlex from "./ImageFlex";
 import stylesheet from "../css/stylesheet.css";
 
@@ -14,6 +14,8 @@ const App = () => {
       <ImageContainerRight />
       <ImageContainerLeft />
       <ImageContainerBoth />
+      <Testimonials />
+      <ImageFlex />
     </div>
   );
 };
