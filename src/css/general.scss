@@ -253,3 +253,52 @@
   width: 36rem;
 }
 
+.footerFlex{
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  background: #90d4c6;
+  width:144rem;
+
+
+}
+
+.logoContainer{
+  width: 100%;
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.logoContainer svg {
+  transform: scale(1.35);
+}
+
+.pagesContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 57rem 0 57rem;
+  transition: 0.2s ease;
+}
+
+.pagesContainer a {
+  font-family: Barlow, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: hsl(168, 34%, 41%);
+
+
+}
+
+//.pagesContainer:hover a {
+//  color: #ffffff;
+//}
+
+.socialMediaContainer {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 63rem;
+  margin-bottom: 7rem;
+}

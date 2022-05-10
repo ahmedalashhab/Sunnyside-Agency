@@ -4,7 +4,7 @@ import Nav from "./Nav";
 
 const Hero = () => {
   return (
-    <div className="width">
+    <div>
       <div className="imageHeader">
         <Nav />
         <div className="title">

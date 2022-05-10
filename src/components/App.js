@@ -5,6 +5,7 @@ import ImageContainerLeft from "./ImageContainerLeft";
 import ImageContainerBoth from "./ImageContainerBoth";
 import Testimonials from "./Testimonials";
 import ImageFlex from "./ImageFlex";
+import Footer from './Footer'
 import stylesheet from "../css/stylesheet.css";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <ImageContainerBoth />
       <Testimonials />
       <ImageFlex />
+      <Footer/>
     </div>
   );
 };
